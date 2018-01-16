@@ -1,4 +1,4 @@
-FROM clearwater/base
+FROM quay.io/clearwater_ims/base
 MAINTAINER maintainers@projectclearwater.org
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes bono
